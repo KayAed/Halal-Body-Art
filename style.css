@@ -12,7 +12,7 @@ body {
 }
 
 .nav-section {
-    background-color: #4A3C38;
+    background-color: #3D2721;
     font-size: 16px;
     display: flex;
     justify-content: space-between;
@@ -41,7 +41,7 @@ ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    gap: 32px;
+    gap: 48px;
     display: flex;
     /* align-items: center; */
 }
@@ -65,16 +65,15 @@ ul {
 
 .hero-title,
 .hero-text,
+.about-title,
 .review-title {
-    color: #4A3C38;
+    color: #3D2721;
     font-family: "Merienda";
 }
 
 .hero-title {
     font-size: 48px;
     font-weight: 900;
-    color: #4A3C38;
-    font-family: "Merienda";
 }
 
 .hero-text {
@@ -85,7 +84,7 @@ button {
     background-color: #3D2721;
     color: #F4EAE0;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     padding: 8px 24px;
     font-size: 16px;
 }
@@ -97,9 +96,33 @@ button {
     align-items: center;
 }
 
+.about {
+    background-color: #D1C5B8;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 48px 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text {
+    max-width: 600px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: ;
+    color: #3D2721;
+}
+
+.about-title,
+.review-title {
+    font-size: 36px;
+    padding: 16px;
+    font-weight: 600;
+}
+
 .reviews-section {
-    background-color: #d1c5b8;
-    padding: 32px 48px 60px;
+    background-color: #F4EAE0;
+    padding: 16px 48px 60px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -110,12 +133,6 @@ button {
     align-items: flex-start;
     gap: 32px;
     padding: 16px 0px;
-}
-
-.review-title {
-    font-size: 36px;
-    padding: 16px;
-    font-weight: 600;
 }
 
 .review-image {
@@ -133,4 +150,47 @@ button {
 img {
     max-width: 100%;
     max-height: 100%;
+}
+
+.contact-us {
+    background-color: #D1C5B8;
+    padding: 32px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-card {
+    background-color: #3D2721;
+    border-radius: 8px;
+    display: flex;
+    padding: 24px 60px;
+    /* justify-content: center; */
+    align-items: center;
+    /* gap: 32px; */
+    color: #F4EAE0;
+}
+
+.call-to-action {
+   color: #F4EAE0;
+    margin: 0px 16px 0px 0px;
+    padding: 0px 16px 0px 0px;
+}
+.cta-heading {
+    font-family: "Merienda";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contact-us-button {
+    border-color: #F4EAE0;
+}
+
+.footer {
+    background-color: #3D2721;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #F4EAE0;
 }
