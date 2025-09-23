@@ -109,7 +109,6 @@ button {
     max-width: 600px;
     font-size: 18px;
     font-weight: 400;
-    background-color: ;
     color: #3D2721;
 }
 
@@ -133,6 +132,8 @@ button {
     align-items: flex-start;
     gap: 32px;
     padding: 16px 0px;
+    flex: 1;
+    flex-wrap: wrap;
 }
 
 .review-image {
@@ -165,14 +166,13 @@ img {
     border-radius: 8px;
     display: flex;
     padding: 24px 60px;
-    /* justify-content: center; */
     align-items: center;
-    /* gap: 32px; */
+    gap: 32px;
     color: #F4EAE0;
 }
 
 .call-to-action {
-   color: #F4EAE0;
+    color: #F4EAE0;
     margin: 0px 16px 0px 0px;
     padding: 0px 16px 0px 0px;
 }
@@ -182,8 +182,10 @@ img {
     font-weight: 600;
 }
 
-.contact-us-button {
-    border-color: #F4EAE0;
+#cta-button {
+    border: 1px solid #F4EAE0;
+    display: flex;
+    flex-shrink: 0;
 }
 
 .footer {
