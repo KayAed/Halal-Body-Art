@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 48px;
+    padding: 8px 72px;
     border-bottom: 1px solid #ddd;
     box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
@@ -48,7 +48,7 @@ ul {
 
 .header {
     background-color: #F4EAE0;
-    padding: 0px 48px;
+    padding: 0px 72px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -100,13 +100,12 @@ button {
     background-color: #D1C5B8;
     display: flex;
     flex-direction: column;
-    padding: 16px 48px 60px;
+    padding: 16px 72px 60px;
     justify-content: center;
     align-items: center;
 }
 
 .about-text {
-    max-width: 600px;
     font-size: 18px;
     font-weight: 400;
     color: #3D2721;
@@ -121,7 +120,7 @@ button {
 
 .reviews-section {
     background-color: #F4EAE0;
-    padding: 16px 48px 60px;
+    padding: 16px 72px 60px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -130,7 +129,7 @@ button {
 .reviews {
     display: flex;
     align-items: flex-start;
-    gap: 32px;
+    gap: 48px;
     padding: 16px 0px;
     flex: 1;
     flex-wrap: wrap;
@@ -155,7 +154,7 @@ img {
 
 .contact-us {
     background-color: #D1C5B8;
-    padding: 32px 48px;
+    padding: 32px 72px;
     display: flex;
     justify-content: space-between;
     align-items: center;
